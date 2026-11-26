@@ -1,0 +1,31 @@
+# Working copies and backups
+work.html
+work_v*.html
+backups/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Testing
+screenshots/
+test-results/
+playwright-report/
+
+# Local configuration and secrets
+.env
+.env.*
+*.log
+
+# Dependencies
+node_modules/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
