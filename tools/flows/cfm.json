@@ -1,0 +1,10 @@
+[{"w":1440,"h":900},
+{"js":"localStorage.setItem('gakko-admin-data','demo');(navigate('schedule'),tt.lens='g',tt.sheet=null,render(),document.querySelector('[data-tt=new]').click(),1)","wait":500},
+{"js":"(()=>{const s=document.querySelector('#ttF-rep');s.value='w1';s.dispatchEvent(new Event('change',{bubbles:true}));return 1})()","wait":300},
+{"js":"(document.querySelector('.ui-shade,[data-tt=closeAsk]').click(),document.activeElement.textContent)","wait":400,"shot":"cfm_close"},
+{"press":"Tab"},{"wait":100,"shot":"cfm_close_tab"},
+{"js":"(document.querySelector('[data-tt=closeDo]').click(),[!!tt.sheet,document.querySelector('#modalRoot').innerHTML.length])","wait":400},
+{"js":"(document.querySelector('[data-tt=build]').click(),1)","wait":400},
+{"js":"(()=>{const D=ttD();D.rows.push({id:'x1',dow:1,start:'08:30',end:'10:00',sbj:TT_SUBJECTS[0].id,groups:[],lects:[],room:''});persist();render();const b=[...document.querySelectorAll('[data-tb]')].find(x=>x.dataset.tb==='clear');b&&b.click();return !!b})()","wait":400,"shot":"cfm_clear"},
+{"js":"(document.querySelector('[data-tb=clearDo]').click(),[ttD().rows.length,document.querySelector('#modalRoot').innerHTML.length])","wait":300}
+]

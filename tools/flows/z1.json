@@ -1,0 +1,13 @@
+[{"w":1440,"h":900},{"js":"localStorage.setItem('gakko-admin-data','demo');(navigate('schedule'),tt.lens='o',render(),1)","wait":400},
+{"click":"#ttRS","wait":300},{"press":"A","wait":100},{"press":"4","wait":100},{"shot":"z1_rs_open"},
+{"press":"0","wait":50},{"press":"3","wait":50},{"press":"Enter","wait":900,"shot":"z1_rs_pick"},
+{"js":"(document.querySelector('#ttRS')||{}).value"},
+{"click":"#ttRS","wait":200},{"press":"B","wait":50},{"press":"1","wait":50},{"press":"2","wait":50},{"press":"0","wait":50},{"press":"Enter","wait":900,"shot":"z1_rs_b120"},
+{"js":"[document.querySelector('.tt-rscroll').scrollLeft,document.querySelectorAll('.hl').length]"},
+{"js":"(tt.lens='g',render(),1)","wait":300,"shot":"z1_week"},
+{"js":"(document.querySelector('.tt-cfw').click(),1)","wait":400,"shot":"z1_confw"},
+{"js":"(document.querySelector('[data-tt=cfs][data-v=s]').click(),1)","wait":300,"shot":"z1_confs"},
+{"js":"(document.querySelector('[data-tt=cfEdit]').click(),1)","wait":400,"shot":"z1_cfedit"},
+{"js":"[document.querySelector('#ttShT').textContent,(document.querySelector('.tt-livecf')||{}).textContent]"},
+{"js":"(document.querySelector('[data-tt=back]').click(),document.querySelector('#ttShT').textContent)","wait":300}
+]

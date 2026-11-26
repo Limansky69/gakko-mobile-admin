@@ -1,0 +1,7 @@
+[{"w":1440,"h":900},{"js":"localStorage.setItem('gakko-admin-data','demo');(navigate('schedule'),tt.lens='g',tt.sheet=null,render(),document.querySelector('[data-tt=new]').click(),1)","wait":500,"shot":"md_open"},
+{"js":"[document.activeElement.id, !!tt.cb]"},
+{"js":"(()=>{const s=document.querySelector('#ttF-rep');s.value='w1';s.dispatchEvent(new Event('change',{bubbles:true}));document.querySelector('[data-tf=wday][data-v=\"5\"]').click();return [tt.sheet.f.dows, ttOpNew(tt.sheet).steps.length, ttOpNew(tt.sheet).dates.length]})()","wait":300,"shot":"md_two"},
+{"js":"(()=>{const c=document.querySelector('[data-tf=multiT]');c.click();return [tt.sheet.f.multiT,document.querySelectorAll('.tt-dtr').length]})()","wait":300},
+{"js":"(()=>{const i=document.querySelector('#ttF-dts5');i.value='12:00';i.dispatchEvent(new Event('change',{bubbles:true}));const o=ttOpNew(tt.sheet);return [o.steps.length,o.steps.map(s=>s.b.startTime+'-'+s.b.endTime+':'+s.b.slots.length)]})()","wait":300,"shot":"md_multi"},
+{"click":"#ttF-to"},{"wait":200,"shot":"md_focus_date"},
+{"click":"#ttF-sbj"},{"wait":200,"shot":"md_focus_cb"}]

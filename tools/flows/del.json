@@ -1,0 +1,8 @@
+[{"w":1440,"h":900},{"js":"localStorage.setItem('gakko-admin-data','demo');(navigate('schedule'),tt.lens='g',tt.sheet=null,render(),document.querySelector('[data-tt=new]').click(),1)","wait":500},
+{"js":"(tt.sheet.f.sbj='ASY-C',ttRerender(),1)","wait":200},
+{"js":"(()=>{const i=document.querySelector('#ttF-sbj');i.focus();i.select();return i.value})()"},
+{"press":"Delete"},{"wait":300,"shot":"del1"},
+{"js":"[tt.sheet.f.sbj,document.querySelector('#ttF-sbj').placeholder,!!tt.cb]"},
+{"js":"(document.body.click(),tt.sheet.f.sbj='ASY-C',tt.cb=null,ttRerender(),1)","wait":200},
+{"click":"#ttF-sbj"},{"wait":200},{"press":"Backspace"},{"wait":300},
+{"js":"[tt.sheet.f.sbj,document.querySelector('#ttF-sbj').placeholder]"}]

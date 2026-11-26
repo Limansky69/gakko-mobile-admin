@@ -1,0 +1,3 @@
+[{"w":1440,"h":900},{"js":"localStorage.setItem('gakko-admin-data','demo');(navigate('schedule'),render(),document.querySelector('[data-tt=build]').click(),1)","wait":500},
+{"js":"(()=>{const D=ttD();const g=ttStGroups(D.st);const L=Object.keys(TT_LECT);D.rows=[ttRowNew(D,{dow:1,start:'08:30',end:'10:00',sbj:TT_SUBJECTS[1].id,groups:[g[1]],lects:[L[2]],room:'A-205'})];persist();render();document.querySelector('[data-tb=review]').click();document.querySelector('[data-tb=force]').click();return !document.querySelector('[data-tb=apply]').disabled})()","wait":400},
+{"js":"(document.querySelector('[data-tb=apply]').click(),[tt.mode,document.querySelector('.toast')?.textContent])","wait":500}]

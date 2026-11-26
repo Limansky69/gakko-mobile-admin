@@ -1,0 +1,11 @@
+[{"w":1440,"h":900},{"js":"localStorage.setItem('gakko-admin-data','demo');(navigate('schedule'),tt.lens='g',tt.sheet=null,render(),document.querySelector('[data-tt=new]').click(),1)","wait":500,"shot":"nf_0"},
+{"click":"#ttF-sbj"},{"wait":300,"shot":"nf_sbj_open"},
+{"js":"(()=>{const i=document.querySelector('#ttF-sbj');i.value='baz';i.dispatchEvent(new Event('input',{bubbles:true}));return [...document.querySelectorAll('.tt-cbo:not([hidden])')].map(o=>o.innerText.replace(/\\n/g,' | '))})()","wait":200,"shot":"nf_sbj_q"},
+{"press":"ArrowDown"},{"press":"Enter"},{"wait":300},
+{"js":"[tt.sheet.f.sbj,document.querySelector('#ttF-sbj').value,!!tt.cb]"},
+{"click":"#ttF-lect"},{"wait":200},
+{"js":"(()=>{const i=document.querySelector('#ttF-lect');i.value='lew';i.dispatchEvent(new Event('input',{bubbles:true}));const o=[...document.querySelectorAll('.tt-cbo:not([hidden])')];o[0].click();return [tt.sheet.f.lects, document.querySelectorAll('.tt-tag').length]})()","wait":300},
+{"js":"(()=>{const s=document.querySelector('#ttF-rep');s.value='w1';s.dispatchEvent(new Event('change',{bubbles:true}));return tt.sheet.f.rep})()","wait":300,"shot":"nf_rep"},
+{"js":"(document.querySelector('.tt-lockshade').click(),document.querySelector('#modalRoot').innerText.slice(0,80))","wait":300,"shot":"nf_close"},
+{"js":"(document.querySelector('[data-action=closeModal]').click(),!!tt.sheet)","wait":200}
+]
