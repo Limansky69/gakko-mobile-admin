@@ -29,3 +29,9 @@ Thumbs.db
 # IDE
 .idea/
 .vscode/
+
+work/
+outputs/
+shots/
+*.py[cod]
+!.env.example
